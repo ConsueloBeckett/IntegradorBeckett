@@ -1,0 +1,84 @@
+[
+    {
+        "id": "berenjena",
+        "nombre": "Berenjena",
+        "precio": 2500,
+        "cantidad": 10,
+        "img": "./src/assets/berenjena.jpg",
+        "caracteristica":"es una hortaliza de color morado oscuro que se utiliza en muchas preparaciones culinarias.",
+        "category":"verdura"
+    },
+    {
+        "id": "arandano",
+        "nombre": "Arandano",
+        "precio": 5000,
+        "cantidad": 8,
+        "img":"./src/assets/arandano.jpg",
+        "caracteristica":"es una fruta pequeña y dulce que se utiliza en postres y otros platos dulces.",
+        "category":"fruta"
+    },
+    {
+        "id": "frutilla",
+        "nombre": "Frutilla",
+        "precio": 3000,
+        "cantidad": 20,
+        "img":"./src/assets/frutilla.jpg",
+        "caracteristica":"es una fruta dulce y aromática que se utiliza en postres y otros platos dulces.",
+        "category":"fruta"
+    },
+    {
+        "id": "cereza",
+        "nombre": "Cereza",
+        "precio": 5000,
+        "cantidad": 20,
+        "img":"./src/assets/cerezas.jpg",
+        "caracteristica":"es una fruta dulce y jugosa que se consume fresca o en conserva",
+        "category":"fruta"
+    },
+    {
+        "id": "durazno",
+        "nombre": "Durazno",
+        "precio": 2500,
+        "cantidad": 15,
+        "img":"./src/assets/durazno.jpg",
+        "caracteristica":"es una fruta jugosa y dulce que se consume fresca o en conserva.",
+        "category":"fruta"
+    },
+    {
+        "id": "sandia",
+        "nombre": "Sandia",
+        "precio": 3000,
+        "cantidad": 20,
+        "img":"./src/assets/sandia.jpg",
+        "caracteristica":"es una fruta grande y refrescante que se consume principalmente en verano.",
+        "category":"fruta"
+    },
+    {
+        "id": "tomate",
+        "nombre": "Tomate",
+        "precio": 1500,
+        "cantidad": 30,
+        "img":"./src/assets/tomate.jpg",
+        "caracteristica":"es una hortaliza muy versátil que se utiliza en muchas preparaciones culinarias.",
+        "category":"verdura"
+    },
+    {
+        "id": "mango",
+        "nombre": "Mango",
+        "precio": 3000,
+        "cantidad": 15,
+        "img":"./src/assets/mango.jpg",
+        "caracteristica": "es una fruta tropical dulce y jugosa que se consume fresca o en conserva.",
+        "category":"fruta"
+    },
+    {
+        "id": "pera",
+        "nombre": "Pera",
+        "precio": 2000,
+        "cantidad": 25,
+        "img":"./src/assets/pera.jpg",
+        "caracteristica":"es una fruta  dulce y jugosa que se consume tantp cruda como al horno.",
+        "category":"fruta"
+
+    }
+]
