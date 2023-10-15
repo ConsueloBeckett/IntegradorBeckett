@@ -1,10 +1,10 @@
 const express = require("express")
 const { default: mongoose } = require("mongoose")
-const userRouter = require("./routes/users.router")
 const app = express()
 const path = require("path");
 const productsRouter = require('./routes/products.router');
 const cartsRouter = require('./routes/carts.router');
+const messageRouter = require('./routes/message.router');
 const port = 8080
 
 //MiddLewars
@@ -15,12 +15,13 @@ app.use(express.urlencoded({extend: true}))
 app.use(express.urlencoded(path.join(__dirname, 'public')))
 
 //routes
-app.use('/', productsRouter);
-app.use('/', cartsRouter);
+app.use('/api/carts', cartsRouter);
+app.use("/api/products", productsRouter);
+app.use("/api/message", messageRouter);
 
 //html file
 app.get("/", (req, res) =>{
-    res.sendFile(path.join(__dirname, 'public', 'index,html'))
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
 
@@ -40,4 +41,3 @@ mongoose.connect("mongodb+srv://pruebaCoder:9zhXvimsIRCZadOc@cluster0.c2raoho.mo
     console.e("cant conect to the DB", e)
 })
 
-app.use("/api/users", userRouter)
